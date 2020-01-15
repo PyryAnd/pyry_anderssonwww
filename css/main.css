@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color:blue;
+}
+h1.warning,note{
+    color:rgb(17, 0, 255);
+    background-color: rgb(255, 251, 5);
+}
+#note1 {
+    color:green;
+}
+.comment {
+    border: 4px solid #666;
+    padding: 5px;
+    background-color: rgb(255, 255, 203);
+}
+
+article > p{
+    font-weight: bold;
+    color:red;
+}
