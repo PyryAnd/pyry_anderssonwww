@@ -5,11 +5,29 @@
     flex-wrap: wrap;
 }
 
-.flexContainer > div {
+.flexContainer > div, .flexcolumn > div {
     background-color: yellow;
     margin:10px;
     text-align: center;
     line-height: 50px;
     font-size: 30px;
     width: fit-content;
+}
+
+.flexcolumn {
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+}
+
+.box {
+    float: right;
+    width: 200px;
+    background-color: green;
+    min-height: 400px;
+}
+
+footer, header {
+    background-color: yellow;
+    height: 100px;
 }
