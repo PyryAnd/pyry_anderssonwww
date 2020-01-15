@@ -1,0 +1,15 @@
+.flexContainer {
+    display: flex;
+    background-color: rgb(253, 171, 171);
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flexContainer > div {
+    background-color: yellow;
+    margin:10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    width: fit-content;
+}
