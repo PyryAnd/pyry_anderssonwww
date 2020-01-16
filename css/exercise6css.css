@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(100, 160, 123);
+}
+
+.container {
+    background-color: white;
+    max-width: 960px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
